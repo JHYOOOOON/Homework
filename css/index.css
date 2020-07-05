@@ -3,6 +3,10 @@ body {
   font-family: "Noto Sans KR", sans-serif !important;
 }
 
+.emoji::after {
+  content: "📚";
+}
+
 /* header */
 header {
   display: flex;

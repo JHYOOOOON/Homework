@@ -7,6 +7,10 @@ body {
   height: 100vh;
 }
 
+.emoji::after {
+  content: "📚";
+}
+
 /* header */
 header {
   display: flex;
