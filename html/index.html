@@ -13,29 +13,42 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
+    <!-- font-awesome css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
     <title>JASMINE | main</title>
   </head>
-  <body>
+  <body class="large">
     <div class="header-wrap">
-      <header class="d-flex">
-        <div class="header-logo">
-          <a href="index.html" class="text-dark text-decoration-none"
-            ><span class="emoji">JASMINE</span></a
-          >
+      <header>
+        <div class="header-top d-flex">
+        <div class="header-left">
+          <div class="header-hamburger">
+          <span class="hamburger-btn">
+            <i class="fas fa-bars"></i>
+          </span>
+          </div>
+          <div class="header-logo">
+            <a href="index.html" class="text-dark text-decoration-none">
+              <span class="emoji">JASMINE</span>
+              </a>
+          </div>
         </div>
-        <ul class="header-main mb-0">
+        <ul class="header-top-nav mb-0">
           <a
             href="../html/introduction.html"
-            class="text-dark text-decoration-none m-auto nav-link"
-            ><li>자스민</li></a
+            class="text-dark text-decoration-none nav-link"
+            ><li class="nav-item">자스민</li></a
           >
-          <li>베스트셀러</li>
-          <li>이벤트</li>
+          <a href="#" class="text-dark text-decoration-none nav-link"><li class="nav-item">베스트셀러</li></a>
+          <a href="#" class="text-dark text-decoration-none nav-link"><li class="nav-item">이벤트</li></a>
           <a
             href="../html/hire.html"
-            class="text-dark text-decoration-none m-auto nav-link"
+            class="text-dark text-decoration-none nav-link"
           >
-            <li>인재영입</li>
+            <li class="nav-item">인재영입</li>
           </a>
         </ul>
         <div class="header-right mb-0">
@@ -44,11 +57,28 @@
           >
           <a
             href="../html/signUp.html"
-            class="text-dark text-decoration-none nav-link"
+            class="text-dark text-decoration-none nav-link p-0"
           >
             <button type="button" class="btn btn-dark">회원가입</button>
           </a>
         </div>
+      </div>
+      <div class="header-bottom c">
+        <ul class="header-bottom-nav mb-0">
+          <a
+            href="../html/introduction.html"
+            class="text-dark text-decoration-none m-auto nav-link"
+            ><li class="nav-item">자스민</li></a
+          >
+          <a href="#" class="text-dark text-decoration-none m-auto nav-link"><li class="nav-item">베스트셀러</li></a>
+          <a href="#" class="text-dark text-decoration-none m-auto nav-link"><li class="nav-item">이벤트</li></a>
+          <a
+            href="../html/hire.html"
+            class="text-dark text-decoration-none m-auto nav-link"
+          >
+            <li class="nav-item">인재영입</li>
+          </a>
+      </div>
       </header>
     </div>
     <div class="section-wrap">
@@ -127,6 +157,6 @@
         </div>
       </footer>
     </div>
-  </body>
+    <script src="../script.js"></script>
   </body>
 </html>

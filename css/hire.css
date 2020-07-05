@@ -1,55 +1,10 @@
 @import "reset.css";
-body {
-  font-family: "Noto Sans KR", sans-serif !important;
-}
-
-.emoji::after {
-  content: "📚";
-}
-
-/* header */
-header {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  width: 85%;
-  margin: 0 auto;
-  word-break: keep-all;
-}
-
-.header-logo {
-  font-size: 18px;
-  font-weight: 700;
-  padding: 25px 0;
-}
-
-ul {
-  display: flex;
-}
-
-.header-main > li {
-  cursor: pointer;
-  padding: 25px 18px;
-}
-
-.header-right {
-  display: flex;
-  align-items: center;
-}
-
-li:hover {
-  color: rgb(228, 148, 0);
-}
-
-.active {
-  color: rgb(228, 148, 0);
-}
+@import "common.css";
 
 /* section */
 section {
   width: 85%;
-  margin: 60px auto;
+  margin: 50px auto;
 }
 
 .title {
@@ -88,37 +43,4 @@ table {
 .pagination-sm li.active a {
   border-color: rgb(228, 148, 0) !important;
   background: rgb(228, 148, 0) !important;
-}
-
-/* footer */
-.footer-wrap {
-  padding: 50px 0;
-  background-color: rgb(240, 239, 239);
-  text-align: center;
-}
-
-footer {
-  font-size: 14px;
-  display: flex;
-  width: 85%;
-  margin: 0 auto;
-  word-break: keep-all;
-}
-
-.footer-logo {
-  margin-right: 15px;
-  font-weight: 700;
-}
-.footer-text {
-  display: flex;
-  color: rgb(146, 146, 146);
-}
-
-.footer-text > p {
-  padding: 0 8px;
-}
-
-.footer-text > p:not(:last-child) {
-  font-weight: 300;
-  border-right: 1px solid gray;
 }
