@@ -30,3 +30,7 @@ section {
 .custom-select {
   cursor: pointer;
 }
+
+label {
+  font-size: 16px;
+}
