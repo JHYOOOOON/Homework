@@ -14,10 +14,13 @@ section {
 
 table {
   text-align: center;
+  font-size: 16px;
+  word-break: keep-all;
 }
 
 .table-title {
   text-align: left;
+  cursor: pointer;
 }
 
 .pagination-sm > li > a {
